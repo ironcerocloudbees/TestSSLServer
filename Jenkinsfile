@@ -15,7 +15,6 @@ node () {
   stage ('Compile sources'){
     //tool name: 'maven3', type: 'hudson.tasks.Maven$MavenInstallation'
     sh '''
-      echo ${JAVA_HOME}
       mvn clean compile
     '''
   }
