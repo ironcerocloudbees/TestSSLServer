@@ -1,6 +1,7 @@
 /**
   Workfow to download and execute a SSL Test connexion
   @author kuisatahverat
+  Test
  **/
 env.targetHost = targetHost
 env.JAVA_HOME = jdkHomePath
