@@ -8,6 +8,7 @@
   Test5
   Test6
   Test7
+  Test8
  **/
 env.targetHost = targetHost
 env.JAVA_HOME = jdkHomePath
