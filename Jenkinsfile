@@ -12,6 +12,7 @@
   Test9
   Test10
   Test11
+  Test12
  **/
 env.targetHost = targetHost
 env.JAVA_HOME = jdkHomePath
