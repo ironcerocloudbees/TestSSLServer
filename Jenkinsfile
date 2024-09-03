@@ -1,32 +1,6 @@
-/**
-  Workfow to download and execute a SSL Test connexion
-  @author kuisatahverat
-  Test
-  Test2
-  Test3
-  Test4
-  Test5
-  Test6
-  Test7
-  Test8
-  Test9
-  Test10
-  Test11
-  Test12
-  Test13
-  Test14
-  Test15
-  Test16
-  Test17
-  Test18
-  Test19
-  Test20
-  Test21
-  Test22
- **/
 env.targetHost = targetHost
 env.JAVA_HOME = jdkHomePath
-node () {
+node ('windows_node_01') {
   stage ('Env'){
     sh 'export'
   }
